@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="edf6eb8e674b43979117042b70f047d6" Name="Diagram1">
+        <EntityTypeShape EntityType="DB_QL_NN_KSModel.CHAM_CONG" Width="1.5" PointX="3" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_QL_NN_KSModel.CHI_TIET_CHAM_CONG" Width="1.5" PointX="5.25" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_QL_NN_KSModel.CHI_TIET_HOA_DON" Width="1.5" PointX="7.5" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_QL_NN_KSModel.CHUC_VU" Width="1.5" PointX="3.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_QL_NN_KSModel.CO_SO" Width="1.5" PointX="0.75" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_QL_NN_KSModel.DICH_VU" Width="1.5" PointX="9.75" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_QL_NN_KSModel.FLOOR" Width="1.5" PointX="9.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_QL_NN_KSModel.GIAO_DICH" Width="1.5" PointX="3" PointY="24.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_QL_NN_KSModel.HOA_DON" Width="1.5" PointX="5.25" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_QL_NN_KSModel.KHACH_HANG" Width="1.5" PointX="3" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_QL_NN_KSModel.KHENTHUONG_KYLUAT_CANHAN" Width="1.5" PointX="6" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_QL_NN_KSModel.KHENTHUONG_KYLUAT_TAPTHE" Width="1.5" PointX="6" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_QL_NN_KSModel.LOAI_PHONG" Width="1.5" PointX="9.75" PointY="26.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_QL_NN_KSModel.LOAI_QUYET_DINH" Width="1.5" PointX="1.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_QL_NN_KSModel.LOAI_REQUEST" Width="1.5" PointX="6" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_QL_NN_KSModel.NHAN_VIEN" Width="1.5" PointX="0.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_QL_NN_KSModel.PHONG" Width="1.5" PointX="12" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_QL_NN_KSModel.PHONG_BAN" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_QL_NN_KSModel.PHU_CAP" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_QL_NN_KSModel.QUYET_DINH_CHUC_VU" Width="1.5" PointX="6" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_QL_NN_KSModel.QUYET_DINH_LUONG" Width="1.5" PointX="3" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_QL_NN_KSModel.QUYET_DINH_TUYEN_DUNG" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_QL_NN_KSModel.QUYETDINH_KHENTHUONG_KYLUAT" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_QL_NN_KSModel.REQUEST" Width="1.5" PointX="8.25" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_QL_NN_KSModel.TAI_KHOAN" Width="1.5" PointX="3" PointY="15.375" IsExpanded="true" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_CHAMCONG_NHANVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_CHAMCONG_REQUEST" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_CHI_TIET_CHAM_CONG__CHAM_CONG" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_CHI_TIET_CHAM_CONG__NHAN_VIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_CHI_TIET_HOA_DON__HOA_DON" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_CHI_TIET_HOA_DON__PHONG" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_DICH_VU_CHI_TIET_HOA_DON" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_FLOORS__COSO" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_TAI_KHOAN__CO_SO" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_PHONG__FLOORS" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_HOA_DON__GIAO_DICH" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_HOA_DON__KHACH_HANG" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_HOA_DON__TAI_KHOAN" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_KTKLCN_NHAN_VIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_KTKLCN_QDKTKT" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_KTKLTT_PHONG_BAN" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_KTKLTT_QDKTKT" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_PHONG__LOAI_PHONG" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_QDKTKL_LOAI_QD" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_REQUEST_LOAI_REQUEST" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_QDTD__NHANVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_QUYET_DINH_CHUC_VU__NHAN_VIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_QUYET_DINH_LUONG__NHAN_VIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_TAI_KHOAN__NHAN_VIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_QDTD_PHONG_BAN" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.FK_REQUEST_TAIKHOAN" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.CHI_TIET_QUYET_DINH_CHUC_VU" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_QL_NN_KSModel.PHONG_DICH_VU" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
